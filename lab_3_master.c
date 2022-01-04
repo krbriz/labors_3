@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
+printf("Ievadi X veertiibu: %d");
+scanf(%d, x);
+
 void main()
 {
     float a=0, b = 2*M_PI, x, delta_x = 1.e-2;
