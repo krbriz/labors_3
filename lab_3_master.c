@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-printf("Ievadi X veertiibu: %d");
-scanf(%d, x);
+
 
 void main()
 {
+    printf("Ievadi X veertiibu:");
+    scanf(%d, &a);
     float a=0, b = 2*M_PI, x, delta_x = 1.e-2;
     // float y;
     printf("\tx\t\tsin(x)\t\tsin\'(x)\n");
