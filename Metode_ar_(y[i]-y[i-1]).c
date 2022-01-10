@@ -17,8 +17,8 @@ int main()
 
     for(i=0;i<N-1;i++)
     {
-        y_prim[i] = (y[i+1]-y[i])/(x[i+1]-x[i]);
-        //y[i]-y[i-1]
+        y_prim[i] = (y[i]-y[i-1]);
+        //(y[i]-y[i-1])
         //y[i+1]-y[i-1]/(2*delta_x)
     }
 
