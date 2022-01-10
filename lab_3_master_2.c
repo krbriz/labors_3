@@ -6,8 +6,14 @@
 int main()
 {
     double y[N], x[N], y_prim[N-1];
-    double a = 0., b = 2*M_PI, delta_x=(b-a)/(N-1);
+    double a, b = 2*M_PI, delta_x=(b-a)/(N-1);
     int i;
+
+    printf("Ievadi a veertiibu: ");
+    fflush(stdin);
+    scanf("%f", &a, &b);
+
+    double a = x;
 
     for(i=0;i<N;i++)
     {
