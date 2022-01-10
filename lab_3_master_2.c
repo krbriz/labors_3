@@ -13,8 +13,6 @@ int main()
     fflush(stdin);
     scanf("%f", &a, &b);
 
-    double a = x;
-
     for(i=0;i<N;i++)
     {
         x[i] = a + i*delta_x;
