@@ -5,10 +5,22 @@
 
 void main()
 {
-    float a, b = 2*M_PI, x, delta_x = 1.e-2;
-    printf("Ievadi X veertiibu:");
-    scanf("%d", &a);
+    float a, b, x, delta_x;
+    printf("Ievadi a veertiibu:");
     fflush(stdin);
+    scanf("%d", &a);
+    
+
+
+    printf("Ievadi a veertiibu:");
+    fflush(stdin);
+    scanf("%d", &b);
+    
+    printf("Ievadi precizitaati:");
+    fflush(stdin);
+    scanf("%d", &delta_x);
+
+    
     printf("\tx\t\tsin(x)\t\tsin\'(x)\n");
     x = a;
     while (x < b)
