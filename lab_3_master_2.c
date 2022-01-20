@@ -11,7 +11,11 @@ int main()
 
     printf("Ievadi a veertiibu: ");
     fflush(stdin);
-    scanf("%f", &a, &b);
+    scanf("%f", &a);
+
+    printf("Ievadi b veertiibu: ");
+    fflush(stdin);
+    scanf("%f", &b);
 
     for(i=0;i<N;i++)
     {
