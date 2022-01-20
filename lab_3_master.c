@@ -8,6 +8,7 @@ void main()
     float a, b = 2*M_PI, x, delta_x = 1.e-2;
     printf("Ievadi X veertiibu:");
     scanf("%d", &a);
+    fflush(stdin);
     printf("\tx\t\tsin(x)\t\tsin\'(x)\n");
     x = a;
     while (x < b)
